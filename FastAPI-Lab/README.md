@@ -74,6 +74,24 @@ Open Swagger UI:
 
 ---
 
+## 📸 API Screenshots
+
+### Swagger UI Documentation
+![Swagger UI](assets/swagger_ui.png)
+
+*Interactive API documentation with FastAPI's built-in Swagger UI*
+
+### Prediction Example
+![Prediction Example](assets/prediction_example.png)
+
+*Successful prediction showing house price of $435.61k*
+
+The API successfully predicts house prices with the following response format:
+- `predicted_price`: 4.35 (in units of $100k)
+- `price_in_100k`: "$435.61k" (human-readable format)
+
+---
+
 ## Endpoints
 
 ### `GET /`
