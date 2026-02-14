@@ -1,0 +1,5 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gs://mlops-dvc-lab-tanish
+    credentialpath = /Users/tanishbhilare/Desktop/dvc-lab/credentials.json
