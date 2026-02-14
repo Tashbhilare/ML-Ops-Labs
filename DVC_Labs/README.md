@@ -182,19 +182,6 @@ dvc checkout
 
 ---
 
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
-| `.dvc` metafile | Small YAML pointer file containing md5 hash — Git tracks this instead of the large data |
-| `dvc init` | Initializes DVC in a Git repository, creates `.dvc/` config directory |
-| `dvc add` | Starts tracking a file; computes content hash and creates `.dvc` metafile |
-| `dvc push` | Uploads tracked data to remote storage (GCS), organized by hash |
-| `dvc pull` | Downloads data from remote based on current `.dvc` metafile |
-| `dvc checkout` | Restores local data files to match the current `.dvc` pointers |
-| Hash-based versioning | Each data version gets a unique md5 hash — all versions coexist in GCS |
-| Remote storage | External storage (GCS/S3/Azure) where actual data lives, separate from Git |
-
 ## References
 
 - [DVC Documentation](https://dvc.org/doc)
