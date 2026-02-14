@@ -1,8 +1,5 @@
 # DVC Lab 1: Data Version Control with Google Cloud Storage
 
-**Course:** IE 7374 — MLOps | Northeastern University
-
----
 
 ## Overview
 
