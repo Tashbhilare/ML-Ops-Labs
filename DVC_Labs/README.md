@@ -166,9 +166,10 @@ dvc checkout
 
 ---
 
-## References
+## Author
 
-- [DVC Documentation](https://dvc.org/doc)
-- [DVC with Google Cloud Storage](https://dvc.org/doc/user-guide/data-management/remote-storage/google-cloud-storage)
-- [CC General Dataset — Kaggle](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
-- Course: IE 7374 MLOps, Prof. Ramin Mohammadi, Northeastern University
+**Tanish Bhilare**  
+MS Data Science, Northeastern University  
+MLOps Course - Spring 2026
+
+Based on MLOps labs by Professor Ramin Mohammadi
