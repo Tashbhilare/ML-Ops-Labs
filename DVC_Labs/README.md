@@ -15,22 +15,6 @@ In ML projects, datasets change frequently — new records arrive, features get 
 
 This lab walks through the full DVC workflow using **Google Cloud Storage** as the remote backend.
 
-## Architecture
-```
-   Git Repository (GitHub)              Remote Storage (GCS)
-   ┌────────────────────────┐           ┌──────────────────────┐
-   │ data/CC_GENERAL.csv.dvc│──pointer──│ CC_GENERAL.csv       │
-   │ (md5: c9b0bb7...)      │           │ (stored by hash)     │
-   │                        │           │                      │
-   │ .dvc/config            │           │ Version 1: 902KB     │
-   │ .gitignore             │           │ Version 2: 509KB     │
-   │ README.md              │           │ (both preserved)     │
-   └────────────────────────┘           └──────────────────────┘
-         │                                       │
-         │  git push/pull                        │  dvc push/pull
-         ▼                                       ▼
-      GitHub                             gs://mlops-dvc-lab-tanish
-```
 
 **Key idea:** Git never sees the large CSV. It only tracks the tiny `.dvc` file. DVC handles uploading/downloading the actual data to/from GCS.
 
@@ -188,4 +172,3 @@ dvc checkout
 - [DVC with Google Cloud Storage](https://dvc.org/doc/user-guide/data-management/remote-storage/google-cloud-storage)
 - [CC General Dataset — Kaggle](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
 - Course: IE 7374 MLOps, Prof. Ramin Mohammadi, Northeastern University
-READMEEOF
