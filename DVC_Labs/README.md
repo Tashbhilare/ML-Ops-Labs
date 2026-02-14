@@ -9,7 +9,7 @@
 
 ## Overview
 
-In ML projects, datasets change frequently — new records arrive, features get engineered, bugs get fixed. Without data versioning, it's impossible to reproduce past experiments or know which data trained a production model.
+In ML projects, datasets change frequently, new records arrive, features get engineered, bugs get fixed. Without data versioning, it's impossible to reproduce past experiments or know which data trained a production model.
 
 **DVC (Data Version Control)** solves this by working alongside Git. Git tracks code and small `.dvc` metafiles, while DVC manages the actual large data files in remote storage. Each data version is identified by a unique **md5 hash**, so multiple versions can coexist in the remote without conflicts.
 
