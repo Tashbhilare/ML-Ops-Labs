@@ -97,7 +97,7 @@ dvc init
 4. Click **Actions (⋮) → Manage Keys → Add Key → JSON**
 5. Download the JSON file — this authenticates DVC with GCS
 
-> ⚠️ **Never commit the JSON credentials file to Git.** Add it to `.gitignore`.
+> **Never commit the JSON credentials file to Git.** Add it to `.gitignore`.
 
 ### 4. Configure DVC Remote
 ```bash
