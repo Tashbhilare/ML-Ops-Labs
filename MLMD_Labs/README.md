@@ -1,6 +1,6 @@
 # MLMD Lab 1: Tracking a Sports Analytics ML Pipeline with ML Metadata
 
-**Author:** Tanish Dhongade  
+**Author:** Tanish Bhilare  
 **Course:** IE 7374 -- Machine Learning Operations (MLOps), Northeastern University  
 **Original Lab:** [raminmohammadi/MLOps -- MLMD Labs](https://github.com/raminmohammadi/MLOps/tree/main/Labs/MLMD_Labs)
 
