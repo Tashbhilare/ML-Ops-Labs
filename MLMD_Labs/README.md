@@ -27,32 +27,26 @@ Two full pipeline runs are recorded, allowing side-by-side experiment comparison
 
 ## How to Run
 
-1. Clone this repository:
+> **Note:** `ml-metadata` does not support Python 3.12 or Apple Silicon natively. The recommended way to run this notebook is on **Google Colab**.
+
+1. Open the notebook in [Google Colab](https://colab.research.google.com/) by uploading `mlmd_sports_analytics_lab1.ipynb`
+2. Run all cells sequentially (**Runtime > Run all**)
+3. The first cell installs Python 3.10 and `ml-metadata`. The main cell uses `%%script python3.10` to execute the pipeline.
+
+### Alternative: Local (Linux x86 with Python 3.10)
 ```bash
-   git clone <your-repo-url>
-   cd mlmd-sports-analytics-lab1
+git clone https://github.com/Tashbhilare/ML-Ops-Labs.git
+cd ML-Ops-Labs/MLMD_Labs
+python3.10 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+jupyter notebook mlmd_sports_analytics_lab1.ipynb
 ```
-
-2. Create a virtual environment and install dependencies:
-```bash
-   python -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-```
-
-3. Open and run the notebook:
-```bash
-   jupyter notebook mlmd_sports_analytics_lab1.ipynb
-```
-
-4. Execute all cells sequentially. The notebook uses an in-memory database, so no external database setup is required.
-
 ## Project Structure
 ```
-mlmd-sports-analytics-lab1/
+MLMD_Labs/
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 └── mlmd_sports_analytics_lab1.ipynb
 ```
 
