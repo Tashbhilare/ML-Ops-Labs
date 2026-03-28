@@ -125,11 +125,3 @@ Terraform destroys both the VM and the storage bucket cleanly.
 | `.terraform/` | Created by `terraform init`, stores provider plugins |
 | `.terraform.lock.hcl` | Locks provider versions for reproducibility |
 
----
-
-## Key Takeaways
-- Terraform uses a declarative approach — you describe the desired state, it figures out the changes
-- `terraform plan` is your safety net — always review before applying
-- State files are critical and should never be modified manually
-- `force_destroy` and `allow_stopping_for_update` are useful flags for dev/lab environments
-- `terraform destroy` cleanly removes all managed resources, preventing unexpected GCP billing
