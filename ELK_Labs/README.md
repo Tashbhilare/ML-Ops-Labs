@@ -32,6 +32,7 @@ Source: https://www.mbta.com/developers/gtfs
 ---
 
 ## Project Structure
+```
 ELK_Labs/
 ├── data/
 │   └── MBTA_The_RIDE_Reliabilit.csv
@@ -44,7 +45,7 @@ ELK_Labs/
 ├── logstash.conf
 ├── train_model.py
 └── README.md
-
+```
 ---
 
 ## Prerequisites
