@@ -1,0 +1,19 @@
+2026-04-06 18:40:02,874 - INFO - Starting MBTA The RIDE reliability model training
+2026-04-06 18:40:02,881 - INFO - Dataset loaded: 4046 rows, 4 columns
+2026-04-06 18:40:02,901 - INFO - After cleaning: 4046 rows remaining
+2026-04-06 18:40:02,901 - INFO - Average OTP rate: 0.9095
+2026-04-06 18:40:02,901 - INFO - Min OTP rate: 0.4594
+2026-04-06 18:40:02,901 - INFO - Max OTP rate: 0.9940
+2026-04-06 18:40:02,903 - WARNING - Low OTP days detected: 361 days below 85% on-time rate
+2026-04-06 18:40:02,905 - INFO - Train samples: 3236, Test samples: 810
+2026-04-06 18:40:02,906 - INFO - Model training complete
+2026-04-06 18:40:02,907 - INFO - MSE: 0.002122
+2026-04-06 18:40:02,907 - INFO - RMSE: 0.046066
+2026-04-06 18:40:02,907 - INFO - R2 Score: 0.0544
+2026-04-06 18:40:02,907 - WARNING - Low R2 score: 0.0544 - temporal features alone may not explain OTP variance
+2026-04-06 18:40:02,907 - INFO - Coefficient - day_of_week: 0.002583
+2026-04-06 18:40:02,907 - INFO - Coefficient - month: -0.014343
+2026-04-06 18:40:02,907 - INFO - Coefficient - year: 0.002195
+2026-04-06 18:40:02,908 - INFO - Coefficient - day_of_year: 0.000430
+2026-04-06 18:40:02,908 - INFO - Intercept: -3.516179
+2026-04-06 18:40:02,908 - INFO - Training pipeline complete
