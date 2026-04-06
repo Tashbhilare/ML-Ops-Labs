@@ -27,7 +27,8 @@ MBTA The RIDE Reliability — daily on-time trip counts for The RIDE paratransit
 | trip_count | Total trips scheduled |
 | ObjectId | Row ID |
 
-Source: https://gis.data.mass.gov/datasets/MassDOT::mbta-the-ride-reliability/about
+Source:https://www.mbta.com/developers/gtfs
+
 ---
 
 ## Project Structure
